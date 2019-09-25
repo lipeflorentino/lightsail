@@ -1,0 +1,137 @@
+/*
+Theme Name: Tema1
+Theme URI: https://wordpress.org/themes/tema1/
+Author: lipeflorentino
+Author URI: https://wordpress.org/
+Description: Um tema legal!
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tema1
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+.site-container{
+  width: 100%;  
+}
+
+.navbar-header, .footer{
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    background-color: none;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+#itens-header {
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  line-height: 20px;
+}
+
+.img-post{
+    width:30%;
+    height: auto;
+    display: block;
+    border-radius: 2p;
+}
+.img-post img{
+
+}
+
+#blog-post{
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 3px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.blog-content{
+  text-align: justify;
+  margin: 4px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  right: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 32px 32px;
+}
+
+.blog-post:hover{
+  background: gray;
+}
+
+.blog-post:hover .img-post {
+  background: gray;
+  opacity: 0.5;
+}
+
+.blog-post:hover .middle {
+  opacity: 1;
+}
+
+.sa-content, .sa-content-3, .sa-content-4, .sa-content-5 {
+  padding:6% 8%;
+}
+.sa-content p, .sa-content-3 p, .sa-content-4 p, .sa-content-5 p{  
+  text-align: justify;
+  font-size:18px;
+}
+.sa-content-5 h3{
+  font-size: 34px;
+  margin:40px 0 80px 0;
+}
+.sa-content-4 .card{
+  width: 100%;
+}
+.sa-content-2{
+  padding:0 8%;  
+}
+.sa-img-2{
+  width: 100%;
+}
+.sa-img-5{
+  width: 100%;
+  
+}
+
+.btn-right-margin{
+  float: right;
+  width: 12%; 
+  margin-right: 15px;
+}
